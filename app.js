@@ -9,7 +9,7 @@ dotenv.config();
 
 app.use(express.json());
 app.use(express.urlencoded({
-  extended: false
+  extended: fals
 }));
 
 app.use(cors());

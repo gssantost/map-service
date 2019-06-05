@@ -15,4 +15,4 @@ And follow the prompt instructions. In case of having problems while creating da
 
 ## Run
 
-Run `yarn start` or `npm install`
+Run `yarn start` or `npm install` from project root

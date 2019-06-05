@@ -5,9 +5,9 @@ module.exports.getAll = async (req, res) => {
   const marker = new Marker();
   try {
     const data = await marker.getAll();
-    send (200, {
-      ...data
-    })
+    send (200, 
+      data
+    )
   } catch (err) {
     throw err;
   }

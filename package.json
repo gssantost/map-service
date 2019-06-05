@@ -1,0 +1,21 @@
+{
+  "name": "map-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Giovanny Santos",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "pg-promise": "^8.7.2",
+    "pgtools": "^0.3.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

@@ -1,0 +1,1 @@
+SELECT pk_marker AS id, latitude, longitude, title, info FROM public.marker
